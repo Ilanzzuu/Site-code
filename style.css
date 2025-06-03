@@ -1,0 +1,50 @@
+        body {
+            font-family: system-ui;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(pink, blue);
+        }
+
+        h1 {
+            font-size: 8vw;
+        }
+        h2 {
+            font-size: 5vw;
+        }
+
+        p {
+            font-size: 3vw;
+        }
+
+        a {
+            color: blue;
+        }
+        .projets {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .liens {
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            padding: 15px;
+            font-size: 2vw;
+
+        }
+        .liste-projets {
+            display: flex;
+            flex-direction: row;
+
+        }
+        #liste-projets {
+            display: flex;
+            flex-direction: column;
+        }
+        .boutons {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
