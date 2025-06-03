@@ -5,6 +5,9 @@
             justify-content: center;
             align-items: center;
             background: linear-gradient(pink, blue);
+            display: flex;
+            flex-direction: column;
+
         }
 
         h1 {
@@ -30,15 +33,14 @@
             text-align: center;
             text-decoration: none;
             color: white;
-            background-color: black;
             padding: 15px;
-            font-size: 2vw;
+            font-size: 30px;
 
         }
         .liste-projets {
             display: flex;
-            flex-direction: row;
-
+            flex-direction: column;
+            max-width: 200px;
         }
         #liste-projets {
             display: flex;
